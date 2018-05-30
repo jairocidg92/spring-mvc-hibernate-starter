@@ -19,7 +19,6 @@
 			</tr>
 		</c:forEach>
 	</table>
-	
 	<a class="ui button" href="${pageContext.request.contextPath}/user/showAddForm" class="item"><i	class="add circle icon"></i>Add User</a>
 </div>
 

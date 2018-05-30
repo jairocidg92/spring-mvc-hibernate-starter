@@ -25,11 +25,15 @@
 </head>
 <body>
 	<nav class="ui fixed menu teal inverted navbar">
-		<a href="" class="brand item">School</a> 
-		<a href="${pageContext.request.contextPath}/student/list" class="item">List Students</a>
+		<a href="" class="brand item">Car Insurance</a> 
+<%-- 		<a href="${pageContext.request.contextPath}/student/list" class="item">List Students</a>
 		<a href="${pageContext.request.contextPath}/course/list" class="item">List Courses</a>
 		<a href="${pageContext.request.contextPath}/teacher/list" class="item">List Teachers</a>
-		<a href="${pageContext.request.contextPath}/user/list" class="item">List Users</a>
+		<a href="${pageContext.request.contextPath}/user/list" class="item">List Users</a>  --%>
+		<a href="${pageContext.request.contextPath}/departament/list" class="item">Departaments</a>
+		<a href="${pageContext.request.contextPath}/employee/list" class="item">Employees</a>
+		<a href="${pageContext.request.contextPath}/customer/list" class="item">Customers</a>
+		<a href="${pageContext.request.contextPath}/vehicle/list" class="item">Vehicles</a>
 		<sec:authorize access="isAuthenticated()">
 			<!-- <div class="item"> -->
 			Hello <b><c:out value="${pageContext.request.remoteUser}" /></b>

@@ -8,11 +8,11 @@
 </sec:authorize>
 
 <div class="ui segment">
-<img class="ui centered big image" src="${pageContext.request.contextPath}/resources/img/er.png">
+<img class="ui centered big image" src="${pageContext.request.contextPath}/resources/img/car_insurance.png">
 </div>
 
 <div class="ui inverted vertical footer segment form-page">
-	<div class="ui container">Harokopio University</div>
+	<div class="ui container">Erasmus +</div>
 </div>
 <script type="text/javascript">
 	$("[name='logout-nav']").click(
