@@ -10,14 +10,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import gr.hua.dit.entity.Course;
 import gr.hua.dit.entity.Customer;
-import gr.hua.dit.entity.Teacher;
-import gr.hua.dit.entity.Vehicle;
 import gr.hua.dit.service.CustomerService;
-import gr.hua.dit.service.VehicleService;
 
 @Controller
 @RequestMapping("/customer")

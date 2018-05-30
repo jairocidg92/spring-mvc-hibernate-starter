@@ -12,11 +12,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import gr.hua.dit.entity.Course;
 import gr.hua.dit.entity.Departament;
 import gr.hua.dit.entity.Employee;
-import gr.hua.dit.entity.Student;
-import gr.hua.dit.entity.Teacher;
 import gr.hua.dit.service.DepartamentService;
 import gr.hua.dit.service.EmployeeService;
 

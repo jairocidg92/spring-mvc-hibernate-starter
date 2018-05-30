@@ -9,8 +9,6 @@ import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import gr.hua.dit.entity.Student;
-import gr.hua.dit.entity.Teacher;
 import gr.hua.dit.entity.User;
 
 @Repository

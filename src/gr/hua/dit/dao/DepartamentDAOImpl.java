@@ -9,10 +9,8 @@ import org.hibernate.transform.Transformers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import gr.hua.dit.entity.Course;
 import gr.hua.dit.entity.Departament;
 import gr.hua.dit.entity.Employee;
-import gr.hua.dit.entity.Student;
 
 @Repository
 public class DepartamentDAOImpl implements DepartamentDAO{
